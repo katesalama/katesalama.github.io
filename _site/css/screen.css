@@ -82,7 +82,10 @@ p, address, ul {
     width: 600px;
     text-align: left; }
     .hero .hero-text-container h1, .hero .hero-text-container h2, .hero .hero-text-container p, .hero .hero-text-container .button {
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+      color: #fff;
+      font-weight: bold;
+      text-shadow: -2.5px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black; }
   .hero .hero-text-right {
     position: absolute;
     right: 0; }
