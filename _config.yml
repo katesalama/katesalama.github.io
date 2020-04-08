@@ -81,11 +81,11 @@ defaults:
           width: 1500
           height: 2000
           uploads_dir: "/images/post_uploads"
-  -
-    scope:
-      path: "contact-success.html"
-    values:
-      layout: "page"
+  # -
+  #   scope:
+  #     path: "contact-success.html"
+  #   values:
+  #     layout: "page"
   -
     scope:
       path: ""
