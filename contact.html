@@ -1,0 +1,42 @@
+---
+title: Contact
+description: Send us a message to find out more!
+image: /images/IMG_1586.jpeg
+---
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Get in touch below</h1>
+<!-- <p class="subtext editable">If you have a question or would like to learn more, please send a message using the form below. </p> -->
+		</div>
+	</div>
+</section>
+
+
+<!-- <div class="map" id="map"></div>
+ -->
+
+<section class="pad">
+	<div class="text-container contact-box">
+		<div class="hero-text-container">
+<!-- 			<h1 class="editable">Get in touch today</h1>
+ -->			<p class="subtext editable">If you have a question or would like to learn more, please send a message using the form below.</p>
+			
+			<form action="https://app.99inbound.com/api/e/heK8BZ5d" method="post" class="contact-form">
+				<input type="text" name="_gotcha" style="display: none;">
+
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Enter your name...">
+
+				<label for="email">Email Address</label>
+				<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+
+				<label for="message">Message</label>
+				<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+
+				<input type="submit" value="Send Message">
+			</form>
+		</div>
+	</div>
+</section>

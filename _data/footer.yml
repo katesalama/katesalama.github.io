@@ -1,10 +1,10 @@
 left_links:
-  - name: About
-    link: /about/
+  - name: Services
+    link: /services/
   - name: Projects
     link: /projects/
-  # - name: Contact
-  #   link: /contact/
+  - name: Contact
+    link: /contact/
 right_links:
   # - name:
   #   link: https://facebook.com/cloudcannon
