@@ -26,7 +26,7 @@ icon: /assets/images/icon-512.png
 # Build settings
 markdown: kramdown
 # remote_theme: patdryburgh/hitchens
-remote_theme: patdryburgh/hitchens-theme
+# remote_theme: patdryburgh/hitchens-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
