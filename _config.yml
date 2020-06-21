@@ -1,112 +1,46 @@
-# ----
-# Site
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Dr. Kate Salama
-url: "https://www.katesalama.com"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+email: hello@patdryburgh.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Reproductive Psychiatrist
+baseurl: # the subpath of your site, e.g. /blog
+url: "https://www.katesalama.com" # the base hostname & protocol for your site, e.g. http://example.com
+icon: /assets/images/icon-512.png
+# twitter_username: 
+# github_username:  patdryburgh
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Dr. Kate Salama Reproductive Pyschiatrist.
-author:
-  name: Dr. Kate Salama
-  email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: Dr. Kate Salama
-  links:
+# Build settings
+markdown: kramdown
 
-# -----
-# Build
-
-timezone: Etc/UTC
-
-permalink: pretty
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
   - jekyll-paginate
-  - jekyll-archives
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
-
-collections:
-  staff_members:
-    _hide_content: true
-    _icon: account_circle
-
-paginate: 10
-paginate_path: "/projects/:num/"
-
-jekyll-archives:
-  enabled: ['categories']
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image_path:
-          width: 440
-          height: 440
-          uploads_dir: "/images/staff_members"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      type: "posts"
-    values:
-      layout: "post"
-      _options:
-        image:
-          width: 2000
-          height: 1322
-          resize_style: cover
-          uploads_dir: "/images/post_uploads"
-        content:
-          width: 1500
-          height: 2000
-          uploads_dir: "/images/post_uploads"
-  # -
-  #   scope:
-  #     path: "contact-success.html"
-  #   values:
-  #     layout: "page"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      image:
-        width: 2000
-        height: 1322
-        resize_style: cover
-      bottom_image:
-        width: 2000
-        height: 1322
-        resize_style: cover
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Email
-
-
-_comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+paginate: 5
+paginate_path: "/page/:num/"
+theme: hitchens-theme
