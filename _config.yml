@@ -43,4 +43,4 @@ plugins:
 
 paginate: 5
 paginate_path: "/page/:num/"
-remote_theme: microdotblog/theme-hitchens
+remote_theme: patdryburgh/hitchens
