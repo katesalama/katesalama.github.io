@@ -5,30 +5,9 @@
     <description>Reproductive Psychiatrist</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed/index.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Jul 2020 06:55:35 -0400</pubDate>
-    <lastBuildDate>Thu, 09 Jul 2020 06:55:35 -0400</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2020 06:58:46 -0400</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2020 06:58:46 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
-    
-      
-        <item>
-          
-            <title>Perinatal Anxiety Screening</title>
-          
-          <author>drkatesalama@gmail.com (Kate Salama M.D.)</author>
-          <description>
-            &lt;p&gt;This &lt;a href=&quot;/perinatal_anxiety_screening.pdf&quot;&gt;study&lt;/a&gt; published in the American Journal of Obstetrics &amp;amp; Gynecology MFM assessed the utility of adding perinatal anxiety screening to existing depression screening. We found that screening for perinatal anxiety may increase referrals to mental health professionals and may be particularly useful in populations with a history of mental health diagnoses or substance abuse.&lt;/p&gt;
-
-
-          </description>
-          <pubDate>Thu, 09 Jul 2020 00:00:00 -0400</pubDate>
-          <link>http://localhost:4000/literature/2020/07/09/perinatal-anxiety.html</link>
-          <guid isPermaLink="true">http://localhost:4000/literature/2020/07/09/perinatal-anxiety.html</guid>
-          
-          
-          <category>literature</category>
-          
-        </item>
-      
     
       
         <item>
@@ -44,6 +23,27 @@
           <pubDate>Sun, 21 Jun 2020 00:00:00 -0400</pubDate>
           <link>http://localhost:4000/literature/2020/06/21/womens-neuropsychiatry.html</link>
           <guid isPermaLink="true">http://localhost:4000/literature/2020/06/21/womens-neuropsychiatry.html</guid>
+          
+          
+          <category>literature</category>
+          
+        </item>
+      
+    
+      
+        <item>
+          
+            <title>Perinatal Anxiety Screening</title>
+          
+          <author>drkatesalama@gmail.com (Kate Salama M.D.)</author>
+          <description>
+            &lt;p&gt;This &lt;a href=&quot;/perinatal_anxiety_screening.pdf&quot;&gt;study&lt;/a&gt; published in the American Journal of Obstetrics &amp;amp; Gynecology MFM assessed the utility of adding perinatal anxiety screening to existing depression screening. We found that screening for perinatal anxiety may increase referrals to mental health professionals and may be particularly useful in populations with a history of mental health diagnoses or substance abuse.&lt;/p&gt;
+
+
+          </description>
+          <pubDate>Wed, 20 May 2020 00:00:00 -0400</pubDate>
+          <link>http://localhost:4000/literature/2020/05/20/perinatal-anxiety.html</link>
+          <guid isPermaLink="true">http://localhost:4000/literature/2020/05/20/perinatal-anxiety.html</guid>
           
           
           <category>literature</category>
