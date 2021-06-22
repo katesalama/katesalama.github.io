@@ -7,3 +7,4 @@ gemspec
 gem "jekyll-paginate"
 # gem "hitchens-theme"
 gem "jekyll-remote-theme"
+gem "kramdown-parser-gfm"
