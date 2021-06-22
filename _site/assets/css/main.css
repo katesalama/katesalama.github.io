@@ -370,6 +370,9 @@ figcaption {
     border-color: #0b0404;
     margin-top: 0; }
 
+@media screen and (max-width: 767px) {
+  [data-section-id="5e80c87763d7965a88ad6cce"] .gallery-slideshow {
+    height: 400px !important; } }
 .site-masthead {
   box-sizing: border-box;
   position: relative;
